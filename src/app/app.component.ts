@@ -16,6 +16,9 @@ export class AppComponent {
   boroughs: Observable<Borough[]>;
   public config: Object;
 
+  // todo I don't know at this point how to get around passing rtdbservice in the constructor
+  // I would like to just instantiate this guy by his lonesome somehow
+  
   constructor(private store: Store<AppState>, private rtdb: RtdbService){
     this.boroughs = store.select(s => s.boroughs);
     this.config = environment.config;
