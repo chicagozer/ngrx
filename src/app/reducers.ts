@@ -5,10 +5,7 @@
 import { ActionReducer, Action } from '@ngrx/store';
 import {Borough} from './borough';
 
-export const INCREMENT = 'INCREMENT';
 export const RECEIVE_BOROUGHS = 'RECEIVE_BOROUGHS';
-export const DECREMENT = 'DECREMENT';
-export const RESET = 'RESET';
 
 export interface AppState {
   boroughs: Borough[];

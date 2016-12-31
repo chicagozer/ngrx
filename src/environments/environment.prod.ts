@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  config: require("../../package.json"),
+  config: require('../../package.json'),
 };

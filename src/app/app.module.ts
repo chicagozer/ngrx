@@ -6,7 +6,7 @@ import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './reducers';
 import { AppComponent } from './app.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { RtdbService } from "./rtdb/rtdb.service";
+import {RtdbService} from './rtdb/rtdb.service';
 
 @NgModule({
   declarations: [
